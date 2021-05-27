@@ -9,13 +9,8 @@ variable "instance_type" {
 }
 
 variable "tags" {
-  #type = "map"
   description = "Tags"
   default = {
     "Name" = "mv1"
   } 
 }
-
-#variable "vpc" {
-  #default = "vpc-bf90b7c7"
-  #description = "vpc padrão" 

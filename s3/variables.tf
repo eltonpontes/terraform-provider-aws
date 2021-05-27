@@ -14,7 +14,6 @@ variable "versioning" {
 }
 #Tags - S3
 variable "tags" {
-  #type = "map"
   description = "Tags"
   default = {} 
 }
